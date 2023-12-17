@@ -1,9 +1,4 @@
 import hero from "./hero.jpg";
-import meta from "./meta.png";
-import shopify from "./shopify.png";
-import starbucks from "./starbucks.png";
-import tesla from "./tesla.png";
-import logo from "./logo.svg";
 import game from "./javascript_game.png";
 import modal from "./javascript_modal.png";
 import question from "./javascript_ques.png";
@@ -16,14 +11,21 @@ import weather from "./react_weather.png";
 import codeo from "./codeo.png";
 import erai from "./erai.png";
 import idc from "./idc.jpg";
+import scene from "./2dscene.png";
+import chair from "./chair_.png";
+import desk from "./desk.png";
+import dice from "./dice.png";
+import flower from "./flower.png";
+import garden from "./garden.png";
+import house from "./house.png";
+import minecraft from "./mine_craft.png";
+import mushroom from "./mushroom.png";
+import rose from "./rose.png";
+import spider from "./spider.png";
+import sword from "./sword.png";
 
 export {
   hero,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  logo,
   game,
   modal,
   question,
@@ -36,4 +38,16 @@ export {
   codeo,
   erai,
   idc,
+  scene,
+  chair,
+  desk,
+  dice,
+  flower,
+  garden,
+  house,
+  minecraft,
+  mushroom,
+  rose,
+  spider,
+  sword,
 };

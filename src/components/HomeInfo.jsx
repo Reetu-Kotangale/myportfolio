@@ -41,7 +41,7 @@ const renderContent = {
     <InfoBox
       text="Thank you for visiting my portfolio! I'm excited to hear from you."
       link="/contact"
-      btnText="Let's talk"
+      btnText="Contact me"
     />
   ),
 };

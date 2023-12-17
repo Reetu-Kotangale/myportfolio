@@ -1,27 +1,33 @@
 import {
+  chair,
   codeo,
+  desk,
+  dice,
   erai,
+  flower,
   game,
+  garden,
+  house,
   idc,
-  meta,
+  minecraft,
   modal,
   movie,
+  mushroom,
   question,
   quotes,
-  shopify,
-  starbucks,
+  rose,
+  scene,
+  spider,
   stopwatch,
-  tesla,
+  sword,
   todolist,
   watch,
   weather,
 } from "../assets/images";
+
 import {
-  car,
   contact,
   css,
-  estate,
-  express,
   git,
   github,
   html,
@@ -29,16 +35,13 @@ import {
   linkedin,
   motion,
   mui,
-  pricewise,
   react,
-  snapgram,
-  summiz,
   tailwindcss,
-  threads,
   typescript,
   blender,
   mysql,
   chakraui,
+  three,
 } from "../assets/icons";
 
 export const skills = [
@@ -107,6 +110,11 @@ export const skills = [
     name: "Blender",
     type: "3D",
   },
+  {
+    imageUrl: three,
+    name: "Three.js",
+    type: "3D",
+  },
 ];
 
 export const experiences = [
@@ -117,10 +125,10 @@ export const experiences = [
     iconBg: "#ced4da",
     date: "Aug 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Contributed as part of a three-person team in the development of the DART GLOBAL COURIER SERVICE (DGCS) software.",
+      "Specifically responsible for designing and managing the super admin panel within the software framework.",
+      "Java, Servlet, MySQL, MVC, Bootstrap, and JSP technologies to create a comprehensive software framework for domestic courier services.",
+      "Involved in the entire software development lifecycle, from requirement gathering to project planning and database creation.",
     ],
   },
   {
@@ -130,10 +138,11 @@ export const experiences = [
     iconBg: "#21295c",
     date: "Mar 2022 - Jul 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Worked on core banking software application and Developed UI pages primarily focusing on forms based on UI designs using HTML, CSS, and Chakra UI for styling and creating visually appealing interfaces.",
+      "Verified API functionality by utilizing Graphql query generators like Altair, ensuring seamless communication between the UI and backend.",
+      "Created interactive and dynamic charts/graphs using Highcharts to visualize data effectively.",
+      "Developed reusable UI components using React and JavaScript, enhancing code efficiency and maintainability.",
+      "Collaborated with testing teams to ensure UI functionality, responsiveness, and cross-browser compatibility.",
     ],
   },
   {
@@ -143,10 +152,10 @@ export const experiences = [
     iconBg: "#ced4da",
     date: "Nov 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Development and maintenance of diverse websites primarily catering to Japanese clients/customers.",
+      "Translating UI designs into responsive websites. Utilizing HTML, CSS, and Material UI for website development.",
+      "Working with various technologies like React, WordPress, etc., based on project requirements.",
+      "Collaborated with testing teams to ensure UI functionality, responsiveness, and cross-browser compatibility.",
     ],
   },
 ];
@@ -240,7 +249,7 @@ export const projects = [
     link: "https://github.com/adrianhajdin/pricewise",
     hash1: "html",
     hash2: "css",
-    hash3: "React",
+    hash3: "react",
   },
   {
     name: "Movie Land",
@@ -249,6 +258,57 @@ export const projects = [
     link: "https://github.com/adrianhajdin/pricewise",
     hash1: "html",
     hash2: "css",
-    hash3: "React",
+    hash3: "react",
+  },
+];
+
+export const blenders = [
+  {
+    name: "Alchemist Desk",
+    image: desk,
+  },
+  {
+    name: "Mushroom Little Forest",
+    image: mushroom,
+  },
+  {
+    name: "Sword",
+    image: sword,
+  },
+  {
+    name: "Interior House",
+    image: house,
+  },
+  {
+    name: "Garden Illustration",
+    image: garden,
+  },
+  {
+    name: "Chair",
+    image: chair,
+  },
+  {
+    name: "Dice",
+    image: dice,
+  },
+  {
+    name: "Flower Pot",
+    image: flower,
+  },
+  {
+    name: "Rose",
+    image: rose,
+  },
+  {
+    name: "Spider",
+    image: spider,
+  },
+  {
+    name: "2D Scenery",
+    image: scene,
+  },
+  {
+    name: "Minecraft",
+    image: minecraft,
   },
 ];

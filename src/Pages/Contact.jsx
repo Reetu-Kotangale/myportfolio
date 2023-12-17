@@ -38,7 +38,7 @@ const Contact = () => {
         setIsLoading(false);
         showAlert({
           show: true,
-          text: "Message sent successfully!",
+          text: "Thank you for your message 😃",
           type: "success",
         });
 
@@ -52,7 +52,7 @@ const Contact = () => {
         console.log(error);
         showAlert({
           show: true,
-          text: "I didnt receive your message",
+          text: "I didnt receive your message 😢",
           type: "danger",
         });
       });
@@ -61,7 +61,7 @@ const Contact = () => {
   const handleBlur = () => {};
 
   return (
-    <section className="relative flex lg:flex-row flex-col max-container h-[100vh]">
+    <section className="relative flex lg:flex-row flex-col max-container">
       {alert.show && <Alert {...alert} />}
 
       <div className="flex-1 min-w-[50%] flex flex-col">

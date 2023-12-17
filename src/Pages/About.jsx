@@ -13,16 +13,16 @@ const About = () => {
       <h1 className="head-text">
         Hello, I'm{" "}
         <span className="blue-gradient_text font-semibold drop-shadow">
-          Reetu
+          Reetu Kotangale
         </span>
       </h1>
 
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
-          Blending pixels with passion, I craft immersive digital experiences
-          through code and creativity. With a knack for frontend wizardry and a
-          love for 3D artistry, I bring imagination to life in every pixel and
-          line of code.
+          Passionate Frontend Developer with a flair for 3D artistry, merging
+          code with creativity to craft immersive digital experiences.
+          Leveraging 1+ years of expertise to bridge the gap between technology
+          and visual storytelling in the digital realm.
         </p>
       </div>
 
@@ -49,7 +49,7 @@ const About = () => {
         <h3 className="subhead-text">Work Experience</h3>
         <div className="mt-5 flex flex-col gap-3 text-slate-500">
           <p>
-            I've worked with all sorts of companies, leveling up my skills and
+            I've worked with some sorts of companies, leveling up my skills and
             teaming up with smart people. Here's the rundown:
           </p>
         </div>
